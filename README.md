@@ -1,6 +1,6 @@
-# 🎮 Jogo da Velha — Exercício 7.10
+# 🎮 Jogo da Velha
 
-Implementação de um **Jogo da Velha (Tic-Tac-Toe) para dois jogadores** em Python puro, desenvolvida como solução do Exercício 7.10 de um curso de programação.
+Implementação de um **Jogo da Velha (Tic-Tac-Toe) para dois jogadores** em Python puro, desenvolvida como solução do Exercício 7.10 de um curso de Introdução à Programação com Python.
 
 ---
 
@@ -87,7 +87,7 @@ Jogador 1 venceu a partida!
 
 ## 📚 Contexto acadêmico
 
-Este projeto foi desenvolvido como solução do **Exercício 7.10** de um material didático de Python, cujo enunciado solicita:
+Este projeto foi desenvolvido como solução do **Exercício 7.10** do curso de Introdução à Programação com Python, cujo enunciado solicita:
 
 > *"Escreva um jogo da velha para dois jogadores. O jogo deve perguntar onde você quer jogar e alternar entre os jogadores. A cada jogada, verifique se a posição está livre. Verifique também quando um jogador venceu a partida. Um jogo da velha pode ser visto como uma lista de três elementos, na qual cada elemento é outra lista, também com três elementos."*
 

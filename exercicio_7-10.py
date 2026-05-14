@@ -14,7 +14,6 @@ Utilize o mapa abaixo para realizar suas jogadas:
  4 | 5 | 6 
 ---+---+---
  1 | 2 | 3
- 
 """)
 
 tabuleiro = [
@@ -47,17 +46,18 @@ while not venceu and jogadas < 9:
     print(f" {tabuleiro[2][0]} | {tabuleiro[2][1]} | {tabuleiro[2][2]} ")
 
     jogada = input(f"\n{jogador} - Digite o número da posição a ser marcada: ")
+    print()
 
     if jogada.isdigit():
         jogada = int(jogada)
     else:
-        print("Entrada inválida! Digite apenas números de 1 a 9.")
+        print("Entrada inválida! Digite apenas números de 1 a 9.\n")
         continue
 
     if jogada in coordenadas_tabuleiro:
         linha, coluna = coordenadas_tabuleiro[jogada]
     else:
-        print("Jogada inválida! Digite um número entre 1 e 9.")
+        print("Jogada inválida! Digite um número entre 1 e 9.\n")
         continue
 
     if tabuleiro[linha][coluna] == ' ':
@@ -68,7 +68,7 @@ while not venceu and jogadas < 9:
             tabuleiro[linha][coluna] = 'O'
             jogadas += 1
     else:
-        print("Posição ocupada. Escolha outra posição.")
+        print("Posição ocupada. Escolha outra posição.\n")
         continue
 
     for casa_1, casa_2, casa_3 in tabuleiro:

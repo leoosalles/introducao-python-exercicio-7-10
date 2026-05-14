@@ -1,4 +1,4 @@
-# 🎮 Jogo da Velha — Exercício 7.10
+# 🎮 Jogo da Velha
 
 Implementação de um **Jogo da Velha (Tic-Tac-Toe) para dois jogadores** em Python puro, desenvolvida como solução do Exercício 7.10 de um curso de Introdução à Programação com Python.
 

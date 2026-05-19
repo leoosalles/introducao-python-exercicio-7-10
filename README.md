@@ -14,7 +14,7 @@ O programa simula uma partida completa de Jogo da Velha no terminal, alternando 
 
 1. Execute o script no terminal:
    ```bash
-   python jogo_da_velha.py
+   python exercicio_7-10.py
    ```
 2. Ao iniciar, o programa exibe um mapa de referência com a numeração das posições:
    ```
